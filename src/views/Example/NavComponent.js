@@ -1,9 +1,6 @@
 import React from "react";
 import './nav.scss';
 import {
-   BrowserRouter as Router,
-   Switch,
-   Route,
    Link
  } from "react-router-dom";
 
@@ -14,6 +11,7 @@ class NavComponent extends React.Component {
             <div className="topnav">
                <Link to="/">Home</Link>
                <Link to="/user">Users</Link>
+               <Link to="/hook">Hooks</Link>
             </div>
       )
    }
